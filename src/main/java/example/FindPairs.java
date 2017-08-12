@@ -9,6 +9,7 @@ public class FindPairs {
 		int[] x = {1,2,3,4,5};
 		FindPairs fp = new FindPairs();
 	    List<Pair> li = fp.findPairsWhoseSumEqualToGivenNumber(x, 5);
+	    System.out.println("the pairs are:");
 	    System.out.println(li);
 	}
 	
